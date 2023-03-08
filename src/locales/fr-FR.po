@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-02-17 00:17\n"
+"PO-Revision-Date: 2023-03-07 22:05\n"
 "Last-Translator: \n"
 "Language: fr_FR\n"
 "Language-Team: French\n"
@@ -216,10 +216,6 @@ msgstr "Autoriser la migration des jetons LP"
 msgid "Allow high price impact trades and skip the confirm screen. Use at your own risk."
 msgstr "Autoriser les transactions à impact élevé et enlève l'écran de confirmation. À utiliser à vos risques et périls."
 
-#: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "Autoriser le protocole Uniswap à utiliser vos {0}"
-
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
 msgstr "Autorisé"
@@ -357,6 +353,10 @@ msgstr "Adresse bloquée"
 msgid "Blocked from trading"
 msgstr "Bloqué de la négociation"
 
+#: src/nft/components/collection/Card.tsx
+msgid "Blocked on OpenSea"
+msgstr ""
+
 #: src/components/FiatOnrampAnnouncement/index.tsx
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "Buy crypto"
@@ -451,6 +451,11 @@ msgstr "Tout effacer"
 msgid "Close"
 msgstr "Fermer"
 
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Close wallet connection options"
+msgstr ""
+
 #: src/components/Badge/RangeBadge.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "Closed"
@@ -530,6 +535,7 @@ msgstr ""
 msgid "Connect"
 msgstr "Connecter"
 
+#: src/nft/pages/profile/profile.tsx
 #: src/pages/AddLiquidity/index.tsx
 #: src/pages/AddLiquidityV2/index.tsx
 #: src/pages/RemoveLiquidity/index.tsx
@@ -567,6 +573,11 @@ msgstr "Connecter le portefeuille"
 msgid "Connected with"
 msgstr "Connecté avec"
 
+#: src/nft/components/collection/Card.tsx
+msgid "Content not"
+msgstr ""
+
+#: src/nft/components/bag/Bag.tsx
 #: src/nft/components/profile/list/Modal/BelowFloorWarningModal.tsx
 msgid "Continue"
 msgstr "Continuer"
@@ -942,9 +953,9 @@ msgstr "Masquer"
 msgid "Hide closed positions"
 msgstr "Masquer les positions fermées"
 
-#: src/pages/Swap/index.tsx
-msgid "High Price Impact"
-msgstr "Impact sur les prix élevés"
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Hide resources"
+msgstr ""
 
 #: src/components/TokenSafety/index.tsx
 #: src/pages/AddLiquidity/index.tsx
@@ -1031,7 +1042,6 @@ msgstr "Entrée de prix non valide"
 msgid "Invalid range selected. The min price must be lower than the max price."
 msgstr "Plage non valide sélectionnée. Le prix minimum doit être inférieur au prix maximum."
 
-#: src/lib/hooks/swap/useSwapCallback.tsx
 #: src/state/swap/hooks.tsx
 msgid "Invalid recipient"
 msgstr "Destinataire invalide"
@@ -1122,7 +1132,7 @@ msgstr ""
 
 #: src/components/CurrencyInputPanel/index.tsx
 msgid "MAX"
-msgstr ""
+msgstr "MAX"
 
 #: src/components/PositionCard/V2.tsx
 #: src/components/PositionCard/V2.tsx
@@ -1155,7 +1165,7 @@ msgstr ""
 
 #: src/nft/components/profile/list/RoyaltyTooltip.tsx
 msgid "Max fees"
-msgstr ""
+msgstr "Frais Max"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Max price"
@@ -1217,11 +1227,7 @@ msgstr "Minimum reçu"
 
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "Missing chart data"
-msgstr ""
-
-#: src/lib/hooks/swap/useSwapCallback.tsx
-msgid "Missing dependencies"
-msgstr "Dépendances manquantes"
+msgstr "Données graphiques manquantes"
 
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "Missing price data due to recently low trading volume on Uniswap v3"
@@ -1241,7 +1247,7 @@ msgstr "En savoir plus"
 
 #: src/nft/components/profile/list/ListPage.tsx
 msgid "My NFTs"
-msgstr ""
+msgstr "Mes NFTs"
 
 #: src/nft/components/profile/list/NFTListingsGrid.tsx
 msgid "NFT"
@@ -1258,6 +1264,10 @@ msgstr "NFTs"
 #: src/components/Tokens/TokenDetails/index.tsx
 msgid "Name not found"
 msgstr "Nom introuvable"
+
+#: src/components/NavBar/NavIcon.tsx
+msgid "Navigation button"
+msgstr ""
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "Network Fee"
@@ -1286,6 +1296,10 @@ msgstr "Pas de données"
 #: src/state/governance/hooks.ts
 msgid "No description."
 msgstr "Aucune description."
+
+#: src/nft/pages/profile/profile.tsx
+msgid "No items to display"
+msgstr ""
 
 #: src/pages/Pool/v2.tsx
 msgid "No liquidity found."
@@ -1346,6 +1360,11 @@ msgstr "Seuls les votes UNI qui ont été auto-délégués ou délégués à une
 #: src/pages/NotFound/index.tsx
 msgid "Oops, take me back to Swap"
 msgstr "Oups, ramenez-moi à Swap"
+
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Open wallet connection options"
+msgstr ""
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "Out of range"
@@ -1648,7 +1667,7 @@ msgstr "Suppression de {0} {1} et {2} {3}"
 msgid "Removing {0} {1} and{2} {3}"
 msgstr ""
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Resolve {issues} issues"
 msgstr "Résoudre l'anomalie {issues}"
 
@@ -1740,7 +1759,7 @@ msgstr "Fixer une fourchette de prix"
 msgid "Set Starting Price"
 msgstr "Définir le prix de départ"
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Set prices to continue"
 msgstr "Définir le prix pour continuer"
 
@@ -1778,6 +1797,10 @@ msgstr ""
 msgid "Show more"
 msgstr ""
 
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Show resources"
+msgstr ""
+
 #: src/nft/components/profile/list/Modal/ListModalSection.tsx
 msgid "Sign"
 msgstr "Signer"
@@ -1812,7 +1835,7 @@ msgstr "Désolé, une erreur s'est produite lors du traitement de votre demande.
 msgid "Sorry, an error occured while processing your request. If you request support, be sure to provide your error ID."
 msgstr "Désolé, une erreur s'est produite lors du traitement de votre demande. Si vous demandez de l'aide, assurez-vous de fournir votre identifiant d'erreur."
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Start listing"
 msgstr "Commencer la liste"
 
@@ -1854,9 +1877,7 @@ msgstr "Approvisionnement {0} {1} et {2} {3}"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/NavBar/index.tsx
-#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/components/swap/SwapHeader.tsx
-#: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 msgid "Swap"
@@ -1867,18 +1888,12 @@ msgid "Swap <0/> for exactly <1/>"
 msgstr "Remplacez <0/> par exactement <1/>"
 
 #: src/pages/Swap/index.tsx
-#: src/pages/Swap/index.tsx
 msgid "Swap Anyway"
 msgstr "Échanger quand même"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Swap exactly <0/> for <1/>"
 msgstr "Remplacez exactement <0/> par <1/>"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Swap failed: {0}"
-msgstr "Échec de l'échange : {0}"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Swapped"
@@ -2073,6 +2088,10 @@ msgstr "Pour utiliser Uniswap sur {0}, changez le réseau dans les paramètres d
 msgid "Token name"
 msgstr ""
 
+#: src/components/TokenSafety/index.tsx
+msgid "Token not found"
+msgstr ""
+
 #: src/components/NavBar/SearchBarDropdown.tsx
 #: src/components/NavBar/index.tsx
 msgid "Tokens"
@@ -2121,8 +2140,6 @@ msgstr "Date limite de la transaction"
 msgid "Transaction pending"
 msgstr "Transaction en attente"
 
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "Transaction rejected"
@@ -2168,14 +2185,6 @@ msgstr "Frais non réclamés"
 #: src/pages/Vote/styled.tsx
 msgid "Undetermined"
 msgstr "Indéterminé"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected error. Could not estimate gas for the swap."
-msgstr "Erreur inattendue. Impossible d'estimer le gaz pour l'échange."
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected issue with estimating the gas. Please try again."
-msgstr "Problème inattendu avec l'estimation du gaz. Veuillez réessayer."
 
 #: src/pages/Vote/Landing.tsx
 msgid "Uniswap Governance"
@@ -2433,10 +2442,6 @@ msgstr "Vous êtes le premier fournisseur de liquidités."
 msgid "You can either vote on each proposal yourself or delegate your votes to a third party."
 msgstr "Vous pouvez soit voter vous-même sur chaque proposition ou déléguer vos votes à un tiers."
 
-#: src/pages/Swap/index.tsx
-msgid "You can now trade {0}"
-msgstr "Vous pouvez désormais échanger {0}"
-
 #: src/pages/CreateProposal/index.tsx
 msgid "You don't have enough votes to submit a proposal"
 msgstr "Vous n'avez pas assez de votes pour soumettre une proposition"
@@ -2452,10 +2457,6 @@ msgstr "Il se peut que vous ayez perdu votre connexion réseau."
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
 msgstr "Vous devez connecter un compte."
-
-#: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "Vous devez autoriser les contrats intelligents Uniswap à utiliser votre {0}. Vous n'avez à le faire qu'une seule fois par jeton."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
@@ -2535,8 +2536,6 @@ msgstr "Vos positions"
 
 #: src/hooks/useUniversalRouter.ts
 #: src/hooks/useUniversalRouter.ts
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
 msgstr "Votre échange a été modifié via votre portefeuille. Si c'était une erreur, veuillez annuler immédiatement ou vous risquez de perdre vos fonds."
 
@@ -2586,6 +2585,10 @@ msgstr ""
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "and"
 msgstr "et"
+
+#: src/nft/components/collection/Card.tsx
+msgid "available yet"
+msgstr ""
 
 #: src/nft/components/profile/list/PriceTextInput.tsx
 msgid "below floor price."
@@ -2644,7 +2647,7 @@ msgstr "une erreur s'est produite !"
 msgid "to"
 msgstr ""
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "{0, plural, =1 {Resolve issue} other {{1}}}"
 msgstr ""
 
@@ -2672,6 +2675,7 @@ msgstr ""
 #: src/components/ErrorBoundary/index.tsx
 #: src/components/RateToggle/index.tsx
 #: src/components/RateToggle/index.tsx
+#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/nft/components/bag/BagFooter.tsx
 msgid "{0}"
 msgstr "{0}"

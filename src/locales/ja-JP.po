@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-02-17 00:17\n"
+"PO-Revision-Date: 2023-03-07 22:05\n"
 "Last-Translator: \n"
 "Language: ja_JP\n"
 "Language-Team: Japanese\n"
@@ -216,10 +216,6 @@ msgstr "LPトークンの移行を許可する"
 msgid "Allow high price impact trades and skip the confirm screen. Use at your own risk."
 msgstr "価格への大きな影響がある取引を許可し、確認画面をスキップします。自己責任でご利用ください。"
 
-#: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "{0} の使用をUniswapに許可する"
-
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
 msgstr "許可済"
@@ -357,6 +353,10 @@ msgstr "ブロックされたアドレス"
 msgid "Blocked from trading"
 msgstr ""
 
+#: src/nft/components/collection/Card.tsx
+msgid "Blocked on OpenSea"
+msgstr ""
+
 #: src/components/FiatOnrampAnnouncement/index.tsx
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "Buy crypto"
@@ -451,6 +451,11 @@ msgstr "すべてクリア"
 msgid "Close"
 msgstr "閉じる"
 
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Close wallet connection options"
+msgstr "ウォレット接続のオプションを閉じる"
+
 #: src/components/Badge/RangeBadge.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "Closed"
@@ -530,6 +535,7 @@ msgstr "ウォレットで取引を確認する"
 msgid "Connect"
 msgstr "接続"
 
+#: src/nft/pages/profile/profile.tsx
 #: src/pages/AddLiquidity/index.tsx
 #: src/pages/AddLiquidityV2/index.tsx
 #: src/pages/RemoveLiquidity/index.tsx
@@ -565,8 +571,13 @@ msgstr "ウォレットに接続"
 
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
+msgstr "接続先"
+
+#: src/nft/components/collection/Card.tsx
+msgid "Content not"
 msgstr ""
 
+#: src/nft/components/bag/Bag.tsx
 #: src/nft/components/profile/list/Modal/BelowFloorWarningModal.tsx
 msgid "Continue"
 msgstr ""
@@ -645,7 +656,7 @@ msgstr "{0} の現在価格:"
 
 #: src/nft/components/profile/list/NFTListingsGrid.tsx
 msgid "Custom"
-msgstr ""
+msgstr "カスタム"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Dark theme"
@@ -723,7 +734,7 @@ msgstr "編集"
 
 #: src/nft/components/profile/list/Modal/BelowFloorWarningModal.tsx
 msgid "Edit listings"
-msgstr ""
+msgstr "リストを編集"
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "Efficiency Comparison"
@@ -765,7 +776,7 @@ msgstr "エラー"
 
 #: src/components/ErrorBoundary/index.tsx
 msgid "Error ID: {eventId}"
-msgstr ""
+msgstr "エラーID: {eventId}"
 
 #: src/components/WalletModal/PendingView.tsx
 msgid "Error connecting"
@@ -830,11 +841,11 @@ msgstr "期限切れ"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "Explore"
-msgstr ""
+msgstr "探す"
 
 #: src/nft/components/profile/view/EmptyWalletContent.tsx
 msgid "Explore NFTs"
-msgstr ""
+msgstr "NFTを探す"
 
 #: src/pages/Pool/CTACards.tsx
 msgid "Explore Uniswap Analytics."
@@ -842,11 +853,11 @@ msgstr "Uniswap Analyticsをご覧ください。"
 
 #: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
 msgid "Explore tokens"
-msgstr ""
+msgstr "トークンを探す"
 
 #: src/nft/components/profile/list/Modal/ContentRow.tsx
 msgid "Failed"
-msgstr ""
+msgstr "失敗"
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks"
@@ -866,7 +877,7 @@ msgstr "手数料レベル"
 
 #: src/components/NavBar/MenuDropdown.tsx
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 #: src/nft/components/profile/list/NFTListingsGrid.tsx
 msgid "Fees"
@@ -874,7 +885,7 @@ msgstr "手数料"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Fetching Route"
-msgstr ""
+msgstr "ルート取得中"
 
 #: src/components/swap/SwapDetailsDropdown.tsx
 msgid "Fetching best price..."
@@ -882,7 +893,7 @@ msgstr "ベストな価格を取得中…"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Fetching price..."
-msgstr ""
+msgstr "価格を取得中..."
 
 #: src/components/Tokens/TokenTable/SearchBar.tsx
 msgid "Filter tokens"
@@ -890,11 +901,11 @@ msgstr ""
 
 #: src/nft/components/profile/list/NFTListingsGrid.tsx
 msgid "Floor"
-msgstr ""
+msgstr "フロア"
 
 #: src/nft/components/profile/list/NFTListingsGrid.tsx
 msgid "Floor price"
-msgstr ""
+msgstr "フロア価格"
 
 #: src/pages/Vote/VotePage.tsx
 msgid "For"
@@ -922,7 +933,7 @@ msgstr "全範囲のポジションは、集中型ポジションよりも手数
 
 #: src/components/ErrorBoundary/index.tsx
 msgid "Get support"
-msgstr ""
+msgstr "サポートを受ける"
 
 #: src/components/FiatOnrampAnnouncement/index.tsx
 msgid "Get tokens at the best prices in web3 on Uniswap, powered by Moonpay."
@@ -942,9 +953,9 @@ msgstr "非表示"
 msgid "Hide closed positions"
 msgstr "決済したポジションを隠す"
 
-#: src/pages/Swap/index.tsx
-msgid "High Price Impact"
-msgstr "大きな価格への影響"
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Hide resources"
+msgstr "リソースを非表示"
 
 #: src/components/TokenSafety/index.tsx
 #: src/pages/AddLiquidity/index.tsx
@@ -985,7 +996,7 @@ msgstr "MetaMaskをインストールする"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Insufficient funds"
-msgstr ""
+msgstr "資金が不足しています。"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Insufficient liquidity"
@@ -1031,7 +1042,6 @@ msgstr "無効な価格入力"
 msgid "Invalid range selected. The min price must be lower than the max price."
 msgstr "設定した価格範囲が間違っています。最小価格は最大価格より低くしてください。"
 
-#: src/lib/hooks/swap/useSwapCallback.tsx
 #: src/state/swap/hooks.tsx
 msgid "Invalid recipient"
 msgstr "受け取りアドレスが無効です"
@@ -1155,7 +1165,7 @@ msgstr ""
 
 #: src/nft/components/profile/list/RoyaltyTooltip.tsx
 msgid "Max fees"
-msgstr ""
+msgstr "最大手数料"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Max price"
@@ -1219,10 +1229,6 @@ msgstr "最小購入数"
 msgid "Missing chart data"
 msgstr "グラフ データがありません"
 
-#: src/lib/hooks/swap/useSwapCallback.tsx
-msgid "Missing dependencies"
-msgstr "依存関係がありません"
-
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "Missing price data due to recently low trading volume on Uniswap v3"
 msgstr ""
@@ -1253,11 +1259,15 @@ msgstr "NFTコレクション"
 
 #: src/components/NavBar/index.tsx
 msgid "NFTs"
-msgstr ""
+msgstr "NFT"
 
 #: src/components/Tokens/TokenDetails/index.tsx
 msgid "Name not found"
 msgstr ""
+
+#: src/components/NavBar/NavIcon.tsx
+msgid "Navigation button"
+msgstr "ナビゲーションボタン"
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "Network Fee"
@@ -1287,6 +1297,10 @@ msgstr "データがありません"
 msgid "No description."
 msgstr "説明はありません。"
 
+#: src/nft/pages/profile/profile.tsx
+msgid "No items to display"
+msgstr ""
+
 #: src/pages/Pool/v2.tsx
 msgid "No liquidity found."
 msgstr "流動性が見つかりません。"
@@ -1309,7 +1323,7 @@ msgstr ""
 
 #: src/components/Tokens/TokenTable/TokenTable.tsx
 msgid "No tokens found"
-msgstr ""
+msgstr "トークンが見つかりません。"
 
 #: src/components/NavBar/SearchBarDropdown.tsx
 msgid "No tokens found."
@@ -1321,7 +1335,7 @@ msgstr "利用不可"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "Not available in your region"
-msgstr ""
+msgstr "お住いの国ではご利用いただけません"
 
 #: src/components/FeeSelector/FeeTierPercentageBadge.tsx
 msgid "Not created"
@@ -1346,6 +1360,11 @@ msgstr "ブロック{0} 以前に自己委任、または他のアドレスに�
 #: src/pages/NotFound/index.tsx
 msgid "Oops, take me back to Swap"
 msgstr ""
+
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Open wallet connection options"
+msgstr "ウォレット接続のオプションを開く"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "Out of range"
@@ -1377,7 +1396,7 @@ msgstr ""
 #: src/nft/components/bag/BagFooter.tsx
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Pay"
-msgstr ""
+msgstr "支払う"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Pay Anyway"
@@ -1569,7 +1588,7 @@ msgstr "サポートされていないアセットの詳細を見る"
 
 #: src/nft/components/profile/list/ListPage.tsx
 msgid "Receive"
-msgstr ""
+msgstr "受け取る"
 
 #: src/components/AccountDetails/index.tsx
 msgid "Recent Transactions"
@@ -1589,11 +1608,11 @@ msgstr ""
 
 #: src/nft/components/profile/list/Modal/ContentRow.tsx
 msgid "Rejected"
-msgstr ""
+msgstr "拒否"
 
 #: src/components/ErrorBoundary/index.tsx
 msgid "Reload the app"
-msgstr ""
+msgstr "アプリを再読み込み"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/PositionCard/V2.tsx
@@ -1625,11 +1644,11 @@ msgstr "流動性を解除"
 
 #: src/nft/components/profile/list/PriceTextInput.tsx
 msgid "Remove item"
-msgstr ""
+msgstr "アイテムを削除"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Removed"
-msgstr ""
+msgstr "解除"
 
 #: src/nft/components/collection/CollectionAsset.tsx
 #: src/nft/components/profile/view/ViewMyNftsAsset.tsx
@@ -1638,7 +1657,7 @@ msgstr ""
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Removing"
-msgstr ""
+msgstr "削除中"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "Removing {0} {1} and {2} {3}"
@@ -1648,7 +1667,7 @@ msgstr "{0} {1} と {2} {3} を解除中"
 msgid "Removing {0} {1} and{2} {3}"
 msgstr "{0} {1} と {2} {3} を削除"
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Resolve {issues} issues"
 msgstr ""
 
@@ -1720,11 +1739,11 @@ msgstr "自己委任する"
 
 #: src/nft/components/bag/BagHeader.tsx
 msgid "Sell"
-msgstr ""
+msgstr "売る"
 
 #: src/nft/components/profile/list/ListPage.tsx
 msgid "Sell NFTs"
-msgstr ""
+msgstr "NFTを売る"
 
 #: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Selling ERC-1155s coming soon"
@@ -1740,7 +1759,7 @@ msgstr "価格範囲を設定"
 msgid "Set Starting Price"
 msgstr "開始価格を設定"
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Set prices to continue"
 msgstr ""
 
@@ -1758,7 +1777,7 @@ msgstr "プールのシェア:"
 
 #: src/nft/components/profile/list/Modal/SuccessScreen.tsx
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Twitterで共有"
 
 #: src/components/Tokens/TokenDetails/ShareButton.tsx
 msgid "Share to Twitter"
@@ -1776,7 +1795,11 @@ msgstr "決済したポジションを表示"
 
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Show more"
-msgstr ""
+msgstr "もっと表示"
+
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Show resources"
+msgstr "リソースを表示"
 
 #: src/nft/components/profile/list/Modal/ListModalSection.tsx
 msgid "Sign"
@@ -1812,7 +1835,7 @@ msgstr ""
 msgid "Sorry, an error occured while processing your request. If you request support, be sure to provide your error ID."
 msgstr ""
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Start listing"
 msgstr ""
 
@@ -1854,9 +1877,7 @@ msgstr "{0} {1} と {2} {3} を追加中"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/NavBar/index.tsx
-#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/components/swap/SwapHeader.tsx
-#: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 msgid "Swap"
@@ -1867,18 +1888,12 @@ msgid "Swap <0/> for exactly <1/>"
 msgstr "<0/> を <1/>にスワップ"
 
 #: src/pages/Swap/index.tsx
-#: src/pages/Swap/index.tsx
 msgid "Swap Anyway"
 msgstr "問題発生の可能性があるが、スワップする"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Swap exactly <0/> for <1/>"
 msgstr "<0/>を<1/>にスワップ"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Swap failed: {0}"
-msgstr "スワップに失敗しました： {0}"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Swapped"
@@ -2012,7 +2027,7 @@ msgstr "このアプリは、次のサードパーティAPIを使用します。
 
 #: src/nft/components/collection/CollectionAsset.tsx
 msgid "This item is not for sale"
-msgstr ""
+msgstr "このアイテムは販売されていません"
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
@@ -2020,7 +2035,7 @@ msgstr "流動性を追加する前に、このプールを初期化する必要
 
 #: src/pages/Vote/VotePage.tsx
 msgid "This proposal may be executed after {0}."
-msgstr ""
+msgstr "この提案は {0} の後に実行される可能性があります。"
 
 #: src/components/swap/SwapRoute.tsx
 msgid "This route optimizes your total output by considering split routes, multiple hops, and the gas cost of each step."
@@ -2073,6 +2088,10 @@ msgstr ""
 msgid "Token name"
 msgstr "トークン名"
 
+#: src/components/TokenSafety/index.tsx
+msgid "Token not found"
+msgstr ""
+
 #: src/components/NavBar/SearchBarDropdown.tsx
 #: src/components/NavBar/index.tsx
 msgid "Tokens"
@@ -2121,8 +2140,6 @@ msgstr "取引期限"
 msgid "Transaction pending"
 msgstr "保留中の取引"
 
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "Transaction rejected"
@@ -2168,14 +2185,6 @@ msgstr "未請求の報酬"
 #: src/pages/Vote/styled.tsx
 msgid "Undetermined"
 msgstr "未定"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected error. Could not estimate gas for the swap."
-msgstr "予期しないエラー。スワップのガスを見積もることができませんでした。"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected issue with estimating the gas. Please try again."
-msgstr "ガスの見積もりに関する予期しない問題。もう一度やり直してください。"
 
 #: src/pages/Vote/Landing.tsx
 msgid "Uniswap Governance"
@@ -2411,7 +2420,7 @@ msgstr "ラップ中"
 
 #: src/nft/components/bag/BagFooter.tsx
 msgid "Wrong network"
-msgstr ""
+msgstr "ネットワークが間違っています"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"
@@ -2433,10 +2442,6 @@ msgstr "あなたは最初の流動性プロバイダーです。"
 msgid "You can either vote on each proposal yourself or delegate your votes to a third party."
 msgstr "各提案に対して自分で投票するか、または第三者に投票を委任することができます。"
 
-#: src/pages/Swap/index.tsx
-msgid "You can now trade {0}"
-msgstr "{0}を取引できるようになりました"
-
 #: src/pages/CreateProposal/index.tsx
 msgid "You don't have enough votes to submit a proposal"
 msgstr "提案を提出するのに十分な票がありません"
@@ -2452,10 +2457,6 @@ msgstr "ネットワーク接続が失われた可能性があります。"
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
 msgstr "アカウントに接続してください。"
-
-#: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "{0}を使用するには、Uniswapスマートコントラクトに許可を与える必要があります。トークンごとに1回だけ行う必要があります。"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
@@ -2535,8 +2536,6 @@ msgstr "ポジション"
 
 #: src/hooks/useUniversalRouter.ts
 #: src/hooks/useUniversalRouter.ts
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
 msgstr ""
 
@@ -2587,9 +2586,13 @@ msgstr "スリッページ後"
 msgid "and"
 msgstr ""
 
+#: src/nft/components/collection/Card.tsx
+msgid "available yet"
+msgstr ""
+
 #: src/nft/components/profile/list/PriceTextInput.tsx
 msgid "below floor price."
-msgstr ""
+msgstr "フロア価格より下です"
 
 #: src/nft/components/profile/list/Modal/BelowFloorWarningModal.tsx
 msgid "below the collection’s floor price. Are you sure you want to continue?"
@@ -2609,7 +2612,7 @@ msgstr ""
 
 #: src/nft/components/profile/list/RoyaltyTooltip.tsx
 msgid "fee"
-msgstr ""
+msgstr "手数料"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "fees"
@@ -2634,17 +2637,17 @@ msgstr "分"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "reward"
-msgstr ""
+msgstr "報酬"
 
 #: src/components/FiatOnrampModal/index.tsx
 msgid "something went wrong!"
-msgstr ""
+msgstr "問題が発生しました。"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "to"
 msgstr ""
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "{0, plural, =1 {Resolve issue} other {{1}}}"
 msgstr ""
 
@@ -2672,6 +2675,7 @@ msgstr ""
 #: src/components/ErrorBoundary/index.tsx
 #: src/components/RateToggle/index.tsx
 #: src/components/RateToggle/index.tsx
+#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/nft/components/bag/BagFooter.tsx
 msgid "{0}"
 msgstr "{0}"
@@ -2788,7 +2792,7 @@ msgstr ""
 
 #: src/components/NetworkAlert/NetworkAlert.tsx
 msgid "{label} token bridge"
-msgstr ""
+msgstr "{label} トークンブリッジ"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "{percentForSlider}%"

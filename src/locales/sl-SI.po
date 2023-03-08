@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-02-17 00:17\n"
+"PO-Revision-Date: 2023-03-07 22:05\n"
 "Last-Translator: \n"
 "Language: sl_SI\n"
 "Language-Team: Slovenian\n"
@@ -216,10 +216,6 @@ msgstr "Dovoli migracijo likvidnostnih (LP) žetonov"
 msgid "Allow high price impact trades and skip the confirm screen. Use at your own risk."
 msgstr "Dovolite trgovanje z visokim vplivom na ceno in preskočite zaslon za potrditev. Uporabljajte na lastno odgovornost."
 
-#: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "Dovoli protokolu Uniswap, da uporabi vaše {0}"
-
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
 msgstr "Dovoljeno"
@@ -357,6 +353,10 @@ msgstr "Blokiran naslov"
 msgid "Blocked from trading"
 msgstr ""
 
+#: src/nft/components/collection/Card.tsx
+msgid "Blocked on OpenSea"
+msgstr ""
+
 #: src/components/FiatOnrampAnnouncement/index.tsx
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
 msgid "Buy crypto"
@@ -451,6 +451,11 @@ msgstr "Počisti vse"
 msgid "Close"
 msgstr "Zapri"
 
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Close wallet connection options"
+msgstr ""
+
 #: src/components/Badge/RangeBadge.tsx
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "Closed"
@@ -530,6 +535,7 @@ msgstr "V denarnici potrdite transakcijo"
 msgid "Connect"
 msgstr ""
 
+#: src/nft/pages/profile/profile.tsx
 #: src/pages/AddLiquidity/index.tsx
 #: src/pages/AddLiquidityV2/index.tsx
 #: src/pages/RemoveLiquidity/index.tsx
@@ -567,6 +573,11 @@ msgstr "Poveži denarnico"
 msgid "Connected with"
 msgstr "Povezano z"
 
+#: src/nft/components/collection/Card.tsx
+msgid "Content not"
+msgstr ""
+
+#: src/nft/components/bag/Bag.tsx
 #: src/nft/components/profile/list/Modal/BelowFloorWarningModal.tsx
 msgid "Continue"
 msgstr ""
@@ -942,9 +953,9 @@ msgstr "Skrij"
 msgid "Hide closed positions"
 msgstr "Skrij zaprte pozicije"
 
-#: src/pages/Swap/index.tsx
-msgid "High Price Impact"
-msgstr "Visok vpliv na ceno"
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Hide resources"
+msgstr ""
 
 #: src/components/TokenSafety/index.tsx
 #: src/pages/AddLiquidity/index.tsx
@@ -1031,7 +1042,6 @@ msgstr "Neveljaven vnos cene"
 msgid "Invalid range selected. The min price must be lower than the max price."
 msgstr "Razpon ni veljaven. Najnižja cena mora biti nižja od najvišje."
 
-#: src/lib/hooks/swap/useSwapCallback.tsx
 #: src/state/swap/hooks.tsx
 msgid "Invalid recipient"
 msgstr "Neveljaven prejemnik"
@@ -1219,10 +1229,6 @@ msgstr "Prejmete najmanj"
 msgid "Missing chart data"
 msgstr ""
 
-#: src/lib/hooks/swap/useSwapCallback.tsx
-msgid "Missing dependencies"
-msgstr "Manjkajoče odvisnosti"
-
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "Missing price data due to recently low trading volume on Uniswap v3"
 msgstr ""
@@ -1259,6 +1265,10 @@ msgstr ""
 msgid "Name not found"
 msgstr ""
 
+#: src/components/NavBar/NavIcon.tsx
+msgid "Navigation button"
+msgstr ""
+
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "Network Fee"
 msgstr "Omrežna provizija"
@@ -1286,6 +1296,10 @@ msgstr "Ni podatkov"
 #: src/state/governance/hooks.ts
 msgid "No description."
 msgstr "Brez opisa"
+
+#: src/nft/pages/profile/profile.tsx
+msgid "No items to display"
+msgstr ""
 
 #: src/pages/Pool/v2.tsx
 msgid "No liquidity found."
@@ -1345,6 +1359,11 @@ msgstr "Do glasovanja so upravičeni samo glasovi UNI, ki so bili samozastopani 
 
 #: src/pages/NotFound/index.tsx
 msgid "Oops, take me back to Swap"
+msgstr ""
+
+#: src/components/Web3Status/index.tsx
+#: src/components/Web3Status/index.tsx
+msgid "Open wallet connection options"
 msgstr ""
 
 #: src/components/Badge/RangeBadge.tsx
@@ -1648,7 +1667,7 @@ msgstr "Odstranitev {0} {1} in {2} {3}"
 msgid "Removing {0} {1} and{2} {3}"
 msgstr "Odstranitev {0} {1} in{2} {3}"
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Resolve {issues} issues"
 msgstr ""
 
@@ -1740,7 +1759,7 @@ msgstr "Nastavi razpon cene"
 msgid "Set Starting Price"
 msgstr "Nastavi začetno ceno"
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Set prices to continue"
 msgstr ""
 
@@ -1778,6 +1797,10 @@ msgstr "Pokaži zaprte položaje"
 msgid "Show more"
 msgstr ""
 
+#: src/components/NavBar/MenuDropdown.tsx
+msgid "Show resources"
+msgstr ""
+
 #: src/nft/components/profile/list/Modal/ListModalSection.tsx
 msgid "Sign"
 msgstr ""
@@ -1812,7 +1835,7 @@ msgstr ""
 msgid "Sorry, an error occured while processing your request. If you request support, be sure to provide your error ID."
 msgstr ""
 
-#: src/nft/components/profile/list/ListPage.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "Start listing"
 msgstr ""
 
@@ -1854,9 +1877,7 @@ msgstr "Polog {0} {1} in {2} {3}"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/NavBar/index.tsx
-#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/components/swap/SwapHeader.tsx
-#: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 #: src/pages/Swap/index.tsx
 msgid "Swap"
@@ -1867,18 +1888,12 @@ msgid "Swap <0/> for exactly <1/>"
 msgstr "Menjaj <0/> za natanko <1/>"
 
 #: src/pages/Swap/index.tsx
-#: src/pages/Swap/index.tsx
 msgid "Swap Anyway"
 msgstr "Vseeno zamenjaj"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Swap exactly <0/> for <1/>"
 msgstr "Menjaj natanko <0/> za <1/>"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Swap failed: {0}"
-msgstr "Menjava je spodletela: {0}"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Swapped"
@@ -2073,6 +2088,10 @@ msgstr ""
 msgid "Token name"
 msgstr ""
 
+#: src/components/TokenSafety/index.tsx
+msgid "Token not found"
+msgstr ""
+
 #: src/components/NavBar/SearchBarDropdown.tsx
 #: src/components/NavBar/index.tsx
 msgid "Tokens"
@@ -2121,8 +2140,6 @@ msgstr "Rok za transakcijo"
 msgid "Transaction pending"
 msgstr "Transakcija v teku"
 
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "Transaction rejected"
@@ -2168,14 +2185,6 @@ msgstr "Neprevzete provizije"
 #: src/pages/Vote/styled.tsx
 msgid "Undetermined"
 msgstr "Nedoločeno"
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected error. Could not estimate gas for the swap."
-msgstr "Nepričakovana napaka. Porabe plina za menjavo ni bilo mogoče oceniti."
-
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-msgid "Unexpected issue with estimating the gas. Please try again."
-msgstr "Nepričakovana težava pri ocenjevanju porabe plina. Prosimo, poskusite ponovno."
 
 #: src/pages/Vote/Landing.tsx
 msgid "Uniswap Governance"
@@ -2433,10 +2442,6 @@ msgstr "Ste prvi ponudnik likvidnosti."
 msgid "You can either vote on each proposal yourself or delegate your votes to a third party."
 msgstr "O vsaki pobudi lahko glasujete sami ali pa svoje glasove prenesete na izbranega zastopnika."
 
-#: src/pages/Swap/index.tsx
-msgid "You can now trade {0}"
-msgstr "Zdaj lahko trgujete z {0}"
-
 #: src/pages/CreateProposal/index.tsx
 msgid "You don't have enough votes to submit a proposal"
 msgstr "Nimate dovolj glasov za predložitev pobude."
@@ -2452,10 +2457,6 @@ msgstr "Morda ste izgubili omrežno povezavo."
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
 msgstr "Povezati morate račun."
-
-#: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "Najprej morate Uniswapovim pametnim pogodbam dovoliti uporabo svojih {0}. To je za vsak žeton potrebno storiti samo enkrat."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
@@ -2535,8 +2536,6 @@ msgstr "Vaše pozicije"
 
 #: src/hooks/useUniversalRouter.ts
 #: src/hooks/useUniversalRouter.ts
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
-#: src/lib/hooks/swap/useSendSwapTransaction.tsx
 msgid "Your swap was modified through your wallet. If this was a mistake, please cancel immediately or risk losing your funds."
 msgstr ""
 
@@ -2585,6 +2584,10 @@ msgstr "po zdrsu"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "and"
+msgstr ""
+
+#: src/nft/components/collection/Card.tsx
+msgid "available yet"
 msgstr ""
 
 #: src/nft/components/profile/list/PriceTextInput.tsx
@@ -2644,7 +2647,7 @@ msgstr ""
 msgid "to"
 msgstr ""
 
-#: src/nft/components/bag/profile/ListingButton.tsx
+#: src/nft/components/profile/list/ListingButton.tsx
 msgid "{0, plural, =1 {Resolve issue} other {{1}}}"
 msgstr ""
 
@@ -2672,6 +2675,7 @@ msgstr ""
 #: src/components/ErrorBoundary/index.tsx
 #: src/components/RateToggle/index.tsx
 #: src/components/RateToggle/index.tsx
+#: src/components/Tokens/TokenDetails/MobileBalanceSummaryFooter.tsx
 #: src/nft/components/bag/BagFooter.tsx
 msgid "{0}"
 msgstr "{0}"
